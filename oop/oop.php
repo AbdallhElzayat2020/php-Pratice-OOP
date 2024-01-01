@@ -57,22 +57,19 @@ echo $userData1->name;
 
 // Constructor
 
-class Student {
-public $name;
-public $age;
-public $level;
-public $score;
-public $maxSore;
-public $minScore;
-public $subject=["A"=>"0","E"=>"0","M"=>"0"];
-public function __construct($name,$age)
-  {
-    $this->name=$name;
-    $this->age=$age;
-  }
-}
+// class Student {
+// public $name;
+// public $age;
+// public $level;
+// public $score;
+// public $maxSore;
+// public $minScore;
+// public $subject=["A"=>"0","E"=>"0","M"=>"0"];
+// public function __construct($name,$age)
+//   {
+//     $this->name=$name;
+//     $this->age=$age;
+//   }
+// }
 
-
-
-
-$student1=new Student("abdallh",10);
+// $student1=new Student("abdallh",10);
